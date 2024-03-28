@@ -1,0 +1,61 @@
+Welcome to the second video of this fourth module. The labs within this course will teach
+you everything you need to know about how to work with chatbots. However, before we
+get into the nitty gritty details, I wanted to quickly mention a couple of guiding principles
+for building user-friendly chatbots. Whenever you design a chatbot you should consider the
+tone and personality of your chatbot. Consider the audience and purpose of the chatbot and
+then adjust the chatbot accordingly. If you are targeting a younger demographic, vanilla
+jokes and emojis might be appropriate. If your chatbot is for a funeral home, perhaps
+avoid jokes and using slang. Much like you would if you were to train a human customer
+service agent, you want to ensure the chatbots issues responses that are appropriate for
+the circumstances, whether a formal or informal tone is in order. Consider the default chatbot
+prompt. “Hello. How can I help you?”. It’s a default value when we first create
+the dialog so it has to be generic by design, but it’s not very good and it’s the first
+thing I like to change in a chatbot. Let’s see how we can improve upon it. In our case,
+we might change it to say something like, “Hello. My name is Florence and I’m a
+chatbot here to assist you with your questions about store hours, locations, and flower recommendations.”
+This is a much more user friendly prompt for the user. Let’s see why. We start by giving
+the chatbot a bit of personality by giving it a name. It’s no longer a random software
+in the ether. It’s Florence. Next, we come clean to the fact that we are a chatbot. This
+is important because it sets the right expectation with the user. We want our chatbot to be human-like
+but we don’t want to falsely pretend that it’s actually a human, as this will lead
+to disappointment for the user. Finally, we define the scope of the chatbot by guiding
+the user on what they might be able to ask. The worst thing a chatbot can say is a wide
+open, “What can I do for you?”. It’s okay as a reply later on in the conversation,
+after you already declared the chatbot’s scope. But a “Hello, What can I do for you?”
+off the bat is an invitation to ask the chatbot anything, and that will inevitably lead to
+disappointments. No matter how thorough of a job we do with our chatbot, we are not going
+to make it capable of answering every question it will receive. Heck, we wouldn’t even
+be able to make such a claim if we were training a human customer care agent either. But doubly
+so for a chatbot. On top of the considerations we discussed so far, I’d like to leave you
+with three important rules of chatbot design. The first one is that you should avoid including
+Yes and No in your answer. If you include them it’s very easy to give the wrong answer
+to the user or come across as less human-like that we’d want. For example, consider this
+question. We might have a #free_delivery intent and we might be tempted to answer with, “Yes,
+it is”. When the question is phrased like this, the reply works. However, if the user
+phrases the question differently, the same intent will be detected and the response will
+be issued. Only this time, “Yes, it is” is a pretty bad answer to the question, “Do
+I have to pay for deliveries?” A much better answer is one that avoids a straight yes or no by responding with
+“Deliveries are free” for example, we correctly respond to a question expressing
+a request for delivery pricing information no matter how it’s phrased. Related to this
+first rule, whenever possible try to incorporate part of the user’s question in your response.
+The user will feel more understood and the chatbot will be perceived as more intelligent
+as a result. For example, the user might ask us if we have a store in a given city. “We
+have stores in Toronto, Montreal, Calgary, and Vancouver.” is an okay response as it
+answers the question. However, we could improve it by incorporating a bit of empathy and information
+provided by the user in our response. If we reply, “Unfortunately, we don’t have a
+store in Seattle. ☹️ To date, we have stores in Toronto, Montreal, Calgary, and
+Vancouver.” we are still conveying the same information, but this time we come across
+are more empathetic with the user and all we had to do is incorporate part of the user
+input in our response. Along with ensuring that the answer we provide to the user is
+correct, we should also consider its length. Nobody likes to read walls of text. Instead,
+people prefer to read answers that are one or two short paragraphs long at the most.
+If you need to convey a lot of information in your reply, you are better off linking
+to a page on your site where the user can learn more about the topic. Imagine a financial
+chatbot trying to respond to the user with the entire terms and conditions for a credit
+card application directly in chat. It would be comical. Linking to the right page would
+be more appropriate. And since we can embed HTML in our responses we can make such links
+clickable, making it more convenient for the end user. Okay, now it’s your turn. By the
+end of this module you should have a much better understanding of how intents, entities,
+and dialog work together to allow chatbots to provide useful answers to the end user.
+In the next module we’ll discuss deployment, and finally in the last two modules, we’ll
+look into more advanced features that enable us to create smarter and more useful chatbots.
