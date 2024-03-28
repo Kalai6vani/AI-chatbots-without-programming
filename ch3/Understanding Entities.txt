@@ -1,0 +1,39 @@
+Welcome to the third module of How to Build Chatbots.
+In the previous module we mastered intents.
+This module is entirely dedicated to entities, the second key component of our dialog skill.
+As you know by now, intents capture the user goal.
+Entities allow us to capture specific values within the user utterance.
+
+You might recall this example from the previous module.
+You’ll notice how the chatbot is correctly detecting the intent but completely ignoring the specifics of the question.
+In other words, “When is your Toronto store open?” and “When is your Vancouver store open?” are the same as far as our chatbot is concerned.
+
+That’s because we haven’t defined an entity to capture that specific bit of information, namely the location of the store.
+So what we could do is create a location entity.
+Notice how we use an @ symbol rather than a # symbol for entities.
+We can then define multiple values for our entity, such as Toronto, Montreal, Vancouver, et cetera.
+One value for each store location that we have.
+
+You’ll notice that we can also define synonyms for a given entity value.
+These can be dictionary synonyms but are often synonyms in the sense that the user might refer to the entity value in that way.
+Imagine for example our Toronto store is located on Warden Avenue.
+People might ask about hours of operation of our Toronto store, or they might phrase it as, “What are the hours of operation of your Warden Ave store?”.
+Either should lead our chatbot to detect the same entity value.
+
+Synonyms are optional, but are a useful feature and worth defining when applicable.
+With our location entity defined, we can now detect the intent and the specific location.
+With these two pieces of information we can provide an appropriate and specific answer to the user.
+Note that although entities values can have spaces in them, we need a special syntax to represent them.
+If the entity value has a space in it,we simply wrap it in parentheses to refer to it when, later on, we’ll define the rules of our dialog.
+Much like intents, we can also import entities from CSV.
+In fact, in the labs for this module you’ll import them in this way and learn how to export them to CSV as well.
+
+Other than entering them manually in Watson Assistant and importing them from CSV, there is also a third way to add entities to your chatbot.
+In fact, there are some predefined system entities that you can enable if needed by your chatbot.
+As you can see there are quite a few options.
+@sys-currency allows us to detect mentions of currencies within the user input.
+@sys-date mentions of dates.
+For example, the user might reply to a question with “next Monday” and @sys-date will allow us to capture that piece of information as an actual specific date.
+@sys-person allows us to detect common names, an easy way to collect people’s names to make your chatbot more personable, as you’ll see later on in the course.
+
+System entities are quite handy and they are constantly being improved upon.
