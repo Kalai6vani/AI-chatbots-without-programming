@@ -1,0 +1,54 @@
+
+
+
+Congratulations on reaching the end of this course.
+I hope you enjoyed it.
+Above all, I hope that you feel more confident in your ability to create chatbots.
+By now, you should be much more familiar with chatbots
+and how to leverage Watson Assistant to create, test, deploy,
+and improve your chatbot without having to write any code.
+You might wondering what’s next. So let’s review some possible
+next steps for you.
+ First and foremost, if you haven’t completed the course quizzes and exam, make sure you do so.
+Next, if you are taking this course as part of a learning path or specialization,
+you might consider other Watson-based courses that expand upon the fundamentals you mastered within this course.
+I also recommend that you check out and read the official Watson Assistant documentation.
+ It has a wealth of knowledge
+and will allow you to learn about some finer points we couldn’t cover in this course.
+I highly recommend it in particular to programmers who took this course.
+The documentation covers some advanced features that will be available to those who have programming experience
+or are not afraid of giving it a shot.
+On that note, if you are a programmer, you may want to check out the IBM Code Patterns site
+where you’ll find sample code related to, among others,
+chatbots and artificial intelligence.
+Many of these patterns leverage Watson Assistant along with other Watson services
+to create smart and useful chatbots.
+One such service is actually available to everyone,
+even if you don’t have programming skills.
+I’m talking about IBM Voice Agent with Watson,
+a plug and play service that connects to your Watson Assistant chatbot to make it available over the phone.
+Same chatbot, just over audio rather than text.
+ This is something your business or your clients, might find highly appealing
+so it’s worth checking out in the IBM Cloud catalog.
+In my experience, as someone who also loves to learn online,
+courses like this are great at providing an overview of what’s possible
+and how you might go about accomplishing a given task.
+I have given you the lay of the land, if you will.
+But you won’t truly master these concepts unless you take the time to create something on your own.
+We humans tend to learn by doing.
+So, use these videos as much as needed.
+Reference the Watson Assistant documentation as you see fit.
+Take a look at the Code Patterns examples.
+But try to come up with your own chatbot to polish and fine tune your skills as a chatbot builder.
+If you have questions in the process of creating your own chatbot,
+feel free to pose them in the discussion forum for this course.
+Finally, I’d like to invite you to stay in touch.
+You can follow and interact with me on Twitter
+(my username is @acangiano).
+Also, if you build something cool after taking the course,
+feel free to share it with me there.
+If you don’t use Twitter or would like a more private setting,
+ you can also email me at cangiano@ca.ibm.com to show me what you built.
+We are more than happy to feature people who make good use of our AI technology.
+So this could be your opportunity to have your project or company featured somewhere on the IBM site.
+I look forward to seeing what you’ll build. All the best to you and good luck.
