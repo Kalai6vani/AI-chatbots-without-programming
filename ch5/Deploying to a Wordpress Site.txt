@@ -1,0 +1,59 @@
+Welcome to the fifth module of How to Build Chatbots.
+So far we’ve created a basic, but functioning chatbot.
+The problem is that it’s currently available
+only from the Try it out panel after you log in.
+If you wish to share it with some friends or actual end users,
+you are not able to
+(unless you give them your login information, something you should never do).
+What we need to is deploy our chatbot somewhere publicly accessible.
+As you worked on the dialog skill in the previous module,
+you might have noticed that alongside Skills there was a tab for Assistants.
+An Assistant is a chatbot and it can have one or more skills within it.
+We developed a dialog skill that allows the chatbot to understand and reply to the user.
+Now, we’ll need to create the actual assistant
+and link our dialog skill to it.
+Doing so will allow our chatbot to be deployed through various channels,
+including WordPress sites, Facebook Messenger, Intercom, Slack, your own application, et cetera.
+Some coding skills are required for the more advanced deployments,
+such as your own web or mobile application,
+but thankfully in this course we’ll deploy the chatbot without having to write any code.
+If you are a programmer, the API for Watson Assistant is well documented with examples in JavaScript and Python.
+When you create an assistant you are given the option to enable a preview link.
+Doing so is a good idea as it gives you a page where anyone with your link can try out your chatbot.
+So it’s a great way to let colleagues, friends, or even customer try out your chatbot on the web.
+This widget works by sending the user input to the
+Watson Assistant service you created,
+retrieving the response of your dialog skill, and presenting it to the user.
+If your site is powered by the open source version of WordPress,
+you can greatly simplify the deployment of your chatbot thanks to a plugin that we developed.
+You install the plugin with one click,
+copy over the credentials from your Assistant,
+and your chatbot will magically appear on your site.
+WordPress is incredibly popular and used by about a third of all sites on the web.
+Having the ability to deploy your chatbots on WordPress
+really simplifies the process of making your chatbot available to the public at large.
+The plugin is extremely convenient and flexible,
+allowing you to customize the look and feel of your chatbot window.
+It also includes many powerful features,
+such as the ability to rate, limit the number of conversations that your chatbot can have
+so that it doesn’t exceed your free monthly allowance.
+You can also prevent abusive users from using up your quota by spamming your chatbot.
+Other cool features include the ability to escalate your request to a human,
+log your conversation, and more.
+It pays off to spend some time investigating the features once you install the plugin.
+In the labs for this module, you’ll generate a test WordPress site,
+so you don’t need to have a WordPress site of your own.
+Please note also that WordPress.com is a commercial offering of the open source WordPress software
+located at WordPress.org.
+As a result, they actually charge quite a bit to allow people to install plugins.
+So I don’t recommend that you create a WordPress.com account
+and try to install our Watson Assistant plugin there.
+Instead, at least while learning,
+you should use the site that is provided to you in the labs.
+Once you generated the WordPress site,
+you’ll be tasked with activating and configuring the plugin
+so that it can communicate with the assistant that you’ll create.
+This assistant will in turn be linked to the dialog skill you’ve been working on so far.
+Once the chatbot is deployed on your WordPress test site,
+you’ll be able to make changes to the chatbot directly within Watson Assistant
+and these changes and improvements will be automatically reflected in the chatbot that’s deployed on your site.
