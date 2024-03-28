@@ -1,0 +1,32 @@
+Chatbots are really trending. 
+Everybody seems to be talking about them and everyday there is a new headline about how they are going to be big. 
+If you cut through the hype, you’ll notice that there is genuine interest and businesses, small and big, are paying very close attention to them. 
+This creates great business opportunities for those with the right skills. 
+Chatbots have been around since the late sixties. 
+The first chatbot, Eliza, was rudimentary but it proved the potential of chatbots even back then. 
+So why are chatbots suddenly so in demand now, over half a century later? 
+Two key developments have allowed chatbots to become a viable business tool and such an in-demand skill. 
+The first one is the emergence of messenger applications. 
+Whatsapp, WeChat, Facebook Messenger, and even Slack have become incredibly popular.
+Collectively, they are used by billions of people around the world. 
+In fact, messenger platforms are even more popular than social media sites.
+Messenger apps might have been the catalyst for the emergence of chatbots, but they are certainly not the only platform. 
+Chatbots are now appearing on sites and as mobile apps as well. 
+It’s not so much the platform on which they are delivered on, but rather the conversational nature of the interface. 
+People simply love textual chat and prefer it over virtually every other form of digital conversion. 
+
+The second key component that allowed chatbots to really take off, is the emergence of Artificial Intelligence.
+Chatbots wouldn’t be very useful if they weren’t able to understand what the user wants and respond accordingly. 
+Over the past few years, machine learning, deep learning, natural language processing, and artificial intelligence in general, have all progressed quite rapidly. 
+You might befamiliar with IBM Watson who, several years ago, defeated the best Jeopardy players in the world. 
+More recently, IBM showcased Project Debater, an AI capable of debating humans on complex topics. 
+
+You see, AI is becoming smarter but it’s also becoming more readily available to everyone.
+AI is no longer accessible solely to researchers with PhDs in Computer Science. 
+Such cognitive capabilities are now easily available via libraries and through services provided by companies like IBM.
+Today, the many AI capabilities of Watson are readily provided as services and APIs that are available to anyone with a IBM Cloud account.
+In this course, we’ll in fact use one such a service.
+Specifically, I’m talking about Watson Assistant. 
+This will enable us to develop a chatbot with NLP or natural language processing capabilities. 
+In other words, a chatbot that understands our users and can provide useful answers within the scope we define for it. 
+

@@ -1,0 +1,61 @@
+Welcome to How to Build Chatbots.
+My name is Antonio Cangiano and I’m a Software Developer and Artificial Intelligence Evangelist at IBM.
+
+No coding skills are required so anyone can
+take this course and learn how to create and deploy chatbots.
+
+As we’ll see in this course, with chatbots we can actually use the conversations with
+customers to train and make our chatbot smarter and more useful. 
+The truth is that customer support is hard. 
+It’s not hard because the questions are very hard.
+In most cases, it’s a matter of providing simple answers to simple questions. 
+It’s hard because customer care powered by humans is not very scalable. 
+If your business is doing well, you’ll have an increasingly large amount of customers who need your help.
+So you’ll need to hire more and more people and that takes money. 
+You’ll also need to spend the time and energy to train them properly, managing them, and so on. 
+Chatbots are not meant to replace humans entirely. 
+But they can help us address a large number of simple inquiries from our customers. 
+They can scale indefinitely, unlike human teams, and are available 24/7 every day of the year. unlike human teams.
+In other words, they can act as a first line of defense for your customer care team, allowing you to inexpensively scale your customer support operations and provide a better service by having immediate answers around the clock for common inquires.
+EXAMPLES: 
+Hotel reception chatbot
+
+We had this customer care scaling problem ourselves when Cognitive Class started to become more popular.
+We were ecstatic to have one million enrolled learners, but that posed a serious problem for our small team.
+So we created a student advisor chatbot that could advise students on which course to take and other common questions. 
+
+Here is another one: Allan from Dollar Tea Club, a subscription service for tea lovers, is a one man shop.
+He has to do everything by himself. 
+Prior to introducing a chatbot he was spending a lot of his time answering the same questions over and over. 
+Again, simple questions that still take time to answer if a human is on the receiving end. 
+So he took the first version of this chatbot course and built a chatbot that is saving him many hours a week. 
+The chatbot he created is allowing him to regain some of his time which he can use to actually grow his business. 
+
+Another example I wanted to give you is Oscar, the chatbot from the airline company Air New Zealand. 
+I recently visited their wonderful country and on my way there I had a question about protein powder. 
+You know how import regulations can be quite strict, so I got a little paranoid that I might be breaking some rules. 
+Not wanting to be the Pablo Escobar of Whey Protein Isolate, I asked the staff on board and they had no idea. 
+Thankfully, I had Wi-Fi on the plane and was able to use their chatbot which had an answer to my protein powder question and all other questions I had.
+I was really impressed by how useful it was especially at 35,000 feet in the air. 
+
+As you can see, chatbots are universally useful, regardless of whether you’re a one-person operation or a fortune 500 company. 
+Throughout this course we’ll learn how to create chatbots that serve practical business purposes, rather than just being amusing gimmicks. 
+
+But first,what is a chatbot? 
+It’s a software agent capable of conversing with users through some kind of chat interface. 
+Typically, the chatbot will greet the user and invite them to take some action like asking it a question.
+When the user replies, the chatbot will parse the input and figure out the intention of the user’s question. 
+Finally, it will respond in a consequential manner, either providing information or asking for further details before ultimately answering the question.
+They make the user feel understood and helped. 
+They create rapport with the user, without pretending to be human. 
+The most common chatbots are textual chatbots. 
+The kind you’d interact with in a chat pop up window on a web site or through a messaging app like Facebook Messenger, Whatsapp or Slack.
+However, you can interact with some chatbots through your voice. 
+Apple Siri and Amazon Alexa are two examples of audio-based virtual assistants.
+Before we proceed further, it’s worth noting that sometimes you might hear the word “bot” instead of chatbot in this course or elsewhere online.
+Depending on the context, it’s acceptable to use bot in lieu of chatbot to mean the same thing. 
+For example, a trader bot might monitor the market for certain conditions and then perform automated stock trading transactions based on that information. 
+That’s not a chatbot, as no chatting is taking place. 
+The conversational element is what makes a bot a chatbot. 
+There are many other terms that refer to chatbots, such as chatterbot, chatterbox, talkbot, virtual assistant, Conversational Agent, embodied agent, and even Artificial
+Conversational Entity or its acronym ACE. 
